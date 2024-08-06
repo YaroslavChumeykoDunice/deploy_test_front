@@ -1,0 +1,14 @@
+.recordList {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .recordList {
+    width: 100%;
+  }
+}
